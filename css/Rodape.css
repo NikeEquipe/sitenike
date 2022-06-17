@@ -1,0 +1,70 @@
+footer{
+    background-color: #0bcbd986;
+    height: 250px;
+    display: flex;
+    padding-right: 50px;
+}
+
+.logo-rodape{
+    width: 50%;
+    margin-top: 50px;
+    margin-left: 20px;
+}
+
+.ti-rodape{
+    font-family: 'Didact Gothic', sans-serif;
+    font-size: 30px;
+    color: #046494;
+    font-weight: bold;
+    margin-top: 50px;  
+    
+}
+
+.item-rod{
+    font-family: 'Didact Gothic', sans-serif;
+    font-size: 22px;
+    font-style: italic;
+    color: #6C6C6C;
+    margin-top: 10px;
+}
+
+.i-rodape{
+    display: flex; 
+    justify-content: space-around; 
+    width: 60%;
+    margin-right: 20px;
+}
+
+.item-rod:hover{
+    color: black;
+    cursor: pointer;
+}
+
+.icone-rodape{
+    width: 30px;
+    margin-left: 30px;
+    margin-top: 80px;
+}
+
+.icones{
+    display: flex;
+    justify-content: center;
+    margin-right: 15px;
+}
+
+.clique2{
+    font-family: 'Didact Gothic', sans-serif;
+    font-size: 20px;
+    padding: 15px 50px;
+    background-color: #007EBD;
+    color: white;
+    display: flex;
+    justify-content: center;
+    border-radius: 50px;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+.cont{
+    color: white;
+}

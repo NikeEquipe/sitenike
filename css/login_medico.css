@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(/imgs/fundo2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.img-logo{
+    width: 200px;
+    
+}
+.logo{
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    margin-top: 2%;
+}
+
+.box-login{
+    background-color: rgba(255, 255, 255, 0.505);
+    width: 80%;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 20px;
+    height: 520px;
+    display: flex;
+}
+
+.bemvindo{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 80px;
+}
+
+.login{
+    width: 50%;
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.bv-titulo{
+    font-family: 'Didact Gothic', sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    margin-right: 60px;
+}
+
+.decriptiobv{
+    font-family: 'Didact Gothic', sans-serif;
+    font-size: 20px;
+    margin-right: 60px;
+    margin-top:  30px;
+    font-style: italic;
+    color: rgb(56, 56, 56);
+}
+
+.singin{
+    font-family: 'Didact Gothic', sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    margin-left: 60px;
+    color: #046494;
+}
+
+.box-usuario{
+    border: solid 1px black;
+    border-radius: 40px;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    padding-left: 40px;
+}
+.box-senha{
+    border: solid 1px black;
+    border-radius: 40px;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    padding-left: 40px;
+}
+
+
+.input{
+    border: none;
+    height: 100%;
+    font-family: 'Didact Gothic', sans-serif;
+    font-size: 20px;
+    margin-left: 20px;
+    width: 100%;
+
+}
+
+.icone{
+    width: 20px;
+}
+
+.mantenhaconectado{
+    font-family: 'Didact Gothic', sans-serif;
+    font-size: 18px;
+    color: #046494;
+}
+
+.box-opcoes{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 40px;
+    margin-top: 20px;
+}
+
+.esqueciasenha{
+    font-family: 'Didact Gothic', sans-serif;
+    font-size: 18px;
+    color: #046494;
+    margin-right: 10px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.enviar{
+    background-color: #0BCAD9;
+    border: none;
+    padding: 10px 100px;
+    font-family: 'Didact Gothic', sans-serif;
+    font-size: 18px;
+    color: white;
+    border-radius: 40px;
+    margin-top: 20px;
+}
+
+.btn-acessar{
+    margin-left: auto;
+    margin-right: auto;
+    width: 250px;
+ 
+}
+
+.criar-conta{
+    display: flex;
+    justify-content: center;    
+    font-family: 'Didact Gothic', sans-serif;
+    font-size: 18px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.criar{
+    color: #046494;
+    font-weight: bold;
+    margin-left: 5px;
+}
+
+.criar:hover{
+    cursor: pointer;
+}

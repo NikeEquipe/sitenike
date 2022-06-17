@@ -1,0 +1,46 @@
+main{
+    margin-left: 20%;
+    
+}
+
+.cabecalho{
+    display: flex; 
+    justify-content: space-between;
+    margin-top: 30px;
+    align-items: center;
+}
+
+.pagina{
+    font-family: 'Didact Gothic', sans-serif;
+    font-size: 40px;
+    margin-left: 60px;
+    color: #046494;
+    margin-left: 10%;
+}
+
+.direita{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 60px;
+}
+
+.lupa{
+    width: 30px;
+}
+
+.barra-pesquisa{
+    padding: 7px 40px;
+    border-bottom: 1px solid black;
+    display: flex;
+    align-items: center;
+    border-radius: 40px ;
+}
+
+input{
+    border: none;
+    height: 100%;
+    font-family: 'Didact Gothic', sans-serif;
+    font-size: 20px;
+    margin-right: 10px;
+}
