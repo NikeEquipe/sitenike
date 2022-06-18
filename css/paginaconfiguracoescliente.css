@@ -1,0 +1,51 @@
+.ilustracaocanto{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 700px;
+    z-index: -3;
+}
+
+.icone{
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px gray;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+    margin-left: 20px;
+    background-color: white;
+    
+}
+
+.box-funcionalidades2{
+    display: flex;
+    margin-left: 80px;
+    margin-right: 100px;
+    margin-top: 60px;
+    justify-content: space-around;
+}
+
+.box-funcionalidades1{
+    display: flex;
+    margin-left: 80px;
+    margin-right: 100px;
+    margin-top: 150px;
+    justify-content: space-around;
+}
+
+.box-icone{
+    width: 20%;
+}
+
+.txt-funcionalidades{
+    margin-top: 30px;
+    font-family: 'Didact Gothic', sans-serif;
+    font-size: 24px;
+}
+
+.icone-funcionalidades{
+    width: 70px;
+}
+

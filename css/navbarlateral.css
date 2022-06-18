@@ -83,4 +83,18 @@ nav{
     color: rgb(44, 93, 198) ;
 }
 
+.sairconta{
+    display: flex;
+    display: flex;
+    align-items: center;
+    margin-left: 40px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    margin-right: 40px;
+    margin-top: 50px;
+}
+
+.sair{
+    margin-left: 10px;
+}
 

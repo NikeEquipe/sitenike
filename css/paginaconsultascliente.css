@@ -1,0 +1,71 @@
+.ilustracaocanto{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 700px;
+    z-index: -3;
+}
+
+.icone{
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px gray;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 120px;
+    margin-left: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    background-color: white;
+    
+}
+.box-funcionalidades3{
+    display: flex;
+    margin-left: 80px;
+    margin-right: 100px;
+    margin-top: 20px;
+    justify-content: space-around;
+}
+
+.box-funcionalidades2{
+    display: flex;
+    margin-left: 80px;
+    margin-right: 100px;
+    margin-top: 20px;
+    justify-content: space-around;
+}
+
+.box-funcionalidades1{
+    display: flex;
+    margin-left: 80px;
+    margin-right: 100px;
+    margin-top: 60px;
+    justify-content: space-around;
+}
+
+.box-icone{
+    width: 50%;
+}
+
+.txt-funcionalidades{
+    margin-top: 30px;
+    font-family: 'Didact Gothic', sans-serif;
+    font-size: 24px;
+}
+
+.icone-funcionalidades{
+    width: 40px;
+}
+
+span{
+    color: #046494;
+}
+
+.info-consultas{
+    font-family: 'Didact Gothic', sans-serif;
+    font-size: 14px;
+}
+
+.titulo-Consulta{
+    font-weight: bold;
+}
